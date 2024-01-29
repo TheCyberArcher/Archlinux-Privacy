@@ -17,8 +17,7 @@ Post install :
 ```makepkg -si```
 
 
-```pacman -S reflector```
-```pacman -S nano```
+```pacman -S reflector nano```
 
 ```sudo nano /etc/xdg/reflector/reflector.conf```
 
