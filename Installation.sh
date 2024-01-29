@@ -10,23 +10,6 @@ sleep 2
 
 sudo pacman -Syu
 
-sudo pacman -S --needed base-devel git
-
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
-
-yay -Syyuu
-
-sudo mkdir ~/.local/script/
-
-git clone https://github.com/TheCyberArcher/Archlinux-Privacy.git ~/.local/script/archscript/
-
-sudo chmod 777 -R /Archlinux-Privacy/ ~/.local/script/
-
-cd ~/.local/script/archscript/
-bash Installation.sh
-
 #DNS configuration
 
 nmcli con mod "Connexion filaire 1" ipv4.ignore-auto-dns yes
@@ -77,7 +60,7 @@ gsettings set org.gnome.shell disable-user-extensions false
 
 #Tools installation
 
-yay -S librewolf-bin torbrowser-launcher thunderbird keepassxc webapp-manager extension-manager qbittorrent btop onlyoffice-bin visual-studio-code-bin virtualbox openrgb-bin corectrl ddcutil vlc corectrl discord signal-desktop steam lutris proton-ge-custom neofetch virtualbox
+yay -S librewolf-bin torbrowser-launcher thunderbird protonmail-bridge-bin solaar keepassxc webapp-manager extension-manager qbittorrent btop onlyoffice-bin visual-studio-code-bin virtualbox virtualbox-host-modules-arch openrgb-bin corectrl ddcutil vlc corectrl discord signal-desktop steam lutris proton-ge-custom-bin neofetch virtualbox
 
 sudo pacman -S --needed wine-staging giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls \
 mpg123 lib32-mpg123 openal lib32-openal v4l-utils lib32-v4l-utils libpulse lib32-libpulse libgpg-error \
@@ -86,8 +69,6 @@ sqlite lib32-sqlite libxcomposite lib32-libxcomposite libxinerama lib32-libgcryp
 ncurses lib32-ncurses ocl-icd lib32-ocl-icd libxslt lib32-libxslt libva lib32-libva gtk3 \
 lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader lib32-vulkan-icd-loader
 
-yay -S flatpak
-flatpak install flathub io.github.jeffshee.Hidamari
 
 #Drivers installation
 
@@ -99,7 +80,7 @@ sudo touch /etc/polkit-1/rules.d/90-corectrl.rules
 
 sudo cat << EOF > /etc/polkit-1/rules.d/90-corectrl.rules
 
-" polkit.addRule(function(action, subject) {
+ polkit.addRule(function(action, subject) {
     if ((action.id == "org.corectrl.helper.init" ||
          action.id == "org.corectrl.helperkiller.init") &&
         subject.local == true &&
@@ -107,7 +88,7 @@ sudo cat << EOF > /etc/polkit-1/rules.d/90-corectrl.rules
         subject.isInGroup("your-user-group")) {
             return polkit.Result.YES;
     }
-});"  
+});  
 
 EOF
 
