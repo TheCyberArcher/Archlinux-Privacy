@@ -43,4 +43,37 @@ Env install :
 
 <br />
 
+List of packets installed : 
+
+Gnome light desktop environment : 
+
+- gnome-shell gnome-control-center 
+- gnome-tweaks 
+- gnome-terminal 
+- xdg-user-dirs 
+- networkmanager 
+- nautilus 
+- gnome-keyring 
+- xdg-desktop-portal 
+- xdg-desktop-portal-gnome 
+- gdm 
+- eog
+
+Gnome extensions : 
+
+- gnome-shell-extension-appindicator-git
+- gnome-shell-extension-vitals-git 
+- gnome-shell-extension-display-brightness-ddcutil-git 
+- gnome-shell-extension-quick-settings-tweaks-git 
+- gnome-shell-extension-dash-to-dock 
+- gnome-shell-extension-gsconnect 
+- gnome-shell-extension-blur-my-shell 
+- gnome-shell-extension-pop-shell-git 
+- quick-settings-avatar.git
+- arch-update.git
+- no-overview.git
+
+
+
+
 ---
