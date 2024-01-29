@@ -12,6 +12,11 @@ Post install :
 
 sudo pacman -S --needed base-devel git
 
+git clone https://aur.archlinux.org/yay.git \
+cd yay \
+makepkg -si
+
+
 pacman -S reflector
 
 Modify : --country 'YOUR COUNTRY','OR COUNTRIES'
@@ -21,10 +26,6 @@ sudo systemctl start reflector.service reflector.timer \
 sudo systemctl start reflector.service
 
 sudo pacman -Syu
-
-git clone https://aur.archlinux.org/yay.git \
-cd yay \
-makepkg -si
 
 Modify /etc/pacman.conf
 
