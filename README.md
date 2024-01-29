@@ -25,16 +25,16 @@ Modify : --country 'YOUR COUNTRY','OR COUNTRIES'
 ```sudo systemctl start reflector.service reflector.timer``` \
 ```sudo systemctl start reflector.service```
 
-sudo pacman -Syu
+```sudo pacman -Syu```
 
 Modify /etc/pacman.conf
 
 uncomment the line "multilib"
 
-yay -Syyuu
+```yay -Syyuu```
 
 Env install : 
 
-git clone https://github.com/TheCyberArcher/Archlinux-Privacy.git
+```git clone https://github.com/TheCyberArcher/Archlinux-Privacy.git```
 
-bash Installation.sh
+```bash Installation.sh```
