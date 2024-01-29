@@ -15,3 +15,9 @@ sudo pacman -Syu
 git clone https://aur.archlinux.org/yay.git \
 cd yay \
 makepkg -si
+
+Modify /etc/pacman.conf
+
+uncomment the line "multilib"
+
+yay -Syyuu
