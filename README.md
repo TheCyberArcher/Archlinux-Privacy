@@ -1,5 +1,13 @@
 # Archlinux-Privacy
 
+<br />
+
+>This script is a variation of the original script dedicated to EndeavourOS for more details and the tutorial, go here. 
+
+>This page aims to list the configuration of my Archlinux install. Its rolling release system allows this platform to be permanently up to date and benefit from the latest technologies. Here, I detail step by step how I configure my system to obtain both an OS that protects my privacy extensively, while obtaining ergonomics adapted to my productivity tasks. Also included are some additional features to cover gaming uses.
+
+---
+
 Create an usb key with usbdiskimager
 
 Launch archlinux installer and type "set loadkeys fr"
