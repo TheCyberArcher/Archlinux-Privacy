@@ -12,6 +12,6 @@ sudo systemctl start reflector.service
 
 sudo pacman -Syu
 
-git clone https://aur.archlinux.org/yay.git
-cd yay
+git clone https://aur.archlinux.org/yay.git \
+cd yay \
 makepkg -si
