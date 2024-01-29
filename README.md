@@ -10,20 +10,20 @@ Configure your system before installation
 
 Post install : 
 
-sudo pacman -S --needed base-devel git
+```sudo pacman -S --needed base-devel git```
 
-git clone https://aur.archlinux.org/yay.git \
-cd yay \
-makepkg -si
+```git clone https://aur.archlinux.org/yay.git``` \
+```cd yay``` \
+```makepkg -si```
 
 
-pacman -S reflector
+```pacman -S reflector```
 
 Modify : --country 'YOUR COUNTRY','OR COUNTRIES'
 
-sudo systemctl enable reflector.service reflector.timer \
-sudo systemctl start reflector.service reflector.timer \
-sudo systemctl start reflector.service
+```sudo systemctl enable reflector.service reflector.timer``` \
+```sudo systemctl start reflector.service reflector.timer``` \
+```sudo systemctl start reflector.service```
 
 sudo pacman -Syu
 
