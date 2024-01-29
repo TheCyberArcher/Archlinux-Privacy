@@ -46,9 +46,9 @@ uncomment the line "multilib"
 
 ### Script Installation
 
-```git clone https://github.com/TheCyberArcher/Archlinux-Privacy.git ~/.local/script/archscript/```
-```sudo chmod 777 -R ~/.local/script//```
-```cd ~/.local/script/archscript/```
+```git clone https://github.com/TheCyberArcher/Archlinux-Privacy.git ~/.local/script/archscript/``` \
+```sudo chmod 777 -R ~/.local/script/``` \
+```cd ~/.local/script/archscript/``` \
 ```bash Installation.sh```
 
 <br />
