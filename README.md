@@ -38,3 +38,7 @@ Env install :
 ```git clone https://github.com/TheCyberArcher/Archlinux-Privacy.git```
 
 ```bash Installation.sh```
+
+<br />
+
+---
