@@ -18,6 +18,9 @@ Post install :
 
 
 ```pacman -S reflector```
+```pacman -S nano```
+
+```sudo nano /etc/xdg/reflector/reflector.conf```
 
 Modify : --country 'YOUR COUNTRY','OR COUNTRIES'
 
