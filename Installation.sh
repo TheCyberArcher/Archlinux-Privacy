@@ -64,7 +64,7 @@ yay -S pacman-contrib
 
 #Tools installation
 
-yay -S librewolf-bin torbrowser-launcher thunderbird protonmail-bridge-bin solaar keepassxc webapp-manager extension-manager qbittorrent btop onlyoffice-bin visual-studio-code-bin virtualbox virtualbox-host-modules-arch openrgb-bin corectrl ddcutil vlc corectrl discord signal-desktop steam lutris proton-ge-custom-bin neofetch virtualbox
+yay -S librewolf-bin torbrowser-launcher thunderbird protonmail-bridge-bin solaar keepassxc webapp-manager extension-manager qbittorrent btop onlyoffice-bin visual-studio-code-bin virtualbox virtualbox-host-modules-arch openrgb-bin corectrl ddcutil vlc corectrl discord signal-desktop steam lutris proton-ge-custom-bin neofetch
 
 sudo pacman -S --needed wine-staging giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls \
 mpg123 lib32-mpg123 openal lib32-openal v4l-utils lib32-v4l-utils libpulse lib32-libpulse libgpg-error \
