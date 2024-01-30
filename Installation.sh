@@ -58,6 +58,10 @@ git clone https://github.com/fthx/no-overview.git ~/.local/share/gnome-shell/ext
 sudo systemctl enable gdm.service
 gsettings set org.gnome.shell disable-user-extensions false
 
+#paccache tool
+
+yay -S pacman-contrib
+
 #Tools installation
 
 yay -S librewolf-bin torbrowser-launcher thunderbird protonmail-bridge-bin solaar keepassxc webapp-manager extension-manager qbittorrent btop onlyoffice-bin visual-studio-code-bin virtualbox virtualbox-host-modules-arch openrgb-bin corectrl ddcutil vlc corectrl discord signal-desktop steam lutris proton-ge-custom-bin neofetch virtualbox
@@ -72,7 +76,7 @@ lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader l
 
 #Drivers installation
 
-yay –S mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon
+yay –S mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-tools
 
 #Corectrl file configuration
 
