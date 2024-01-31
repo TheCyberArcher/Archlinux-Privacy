@@ -87,8 +87,8 @@ Now, we edit the pacman packet manager conf to enable the AUR
 
 ```sudo nano /etc/pacman.conf```
 
-uncomment the line "multilib"
----
+- uncomment the line "multilib"
+
 
 We update, but with yay now:
 
