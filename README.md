@@ -72,6 +72,8 @@ We can move on to the next step, retrieving my script and installing everything 
 
 <br />
 
+---
+
 ### Script Installation
 
 ```git clone https://github.com/TheCyberArcher/Archlinux-Privacy.git ~/.local/script/archscript/``` \
@@ -82,6 +84,8 @@ We can move on to the next step, retrieving my script and installing everything 
 We are there, the script is launched, we confirm or enter our password when requested, this will install a minimal gnome desktop environment and all the tools that I use on a daily basis but also configure the configuration files.
 
 <br />
+
+---
 
 ### List of packets installed : 
 
