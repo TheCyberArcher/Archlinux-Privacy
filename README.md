@@ -117,7 +117,7 @@ We are there, the script is launched, we confirm or enter our password when requ
 
 <br />
 
-Gnome light desktop environment : 
+__Gnome light desktop environment :__
 
 - [gnome-shell](https://archlinux.org/packages/extra/x86_64/gnome-shell/)
 - [gnome-control-center](https://archlinux.org/packages/extra/x86_64/gnome-control-center/)
@@ -132,7 +132,7 @@ Gnome light desktop environment :
 - [gdm](https://archlinux.org/packages/extra/x86_64/gdm/)
 - [eog](https://archlinux.org/packages/extra/x86_64/eog/)
 
-Gnome extensions : 
+__Gnome extensions :__ 
 
 - [gnome-shell-extension-appindicator-git](https://github.com/ubuntu/gnome-shell-extension-appindicator)
 - [gnome-shell-extension-vitals-git](https://github.com/corecoding/Vitals)
@@ -146,12 +146,12 @@ Gnome extensions :
 - [arch-update.git](https://github.com/RaphaelRochet/arch-update)
 - [no-overview.git](https://github.com/fthx/no-overview)
 
-Firewall and VPN : 
+__Firewall and VPN :__ 
 
 - [firewalld](https://firewalld.org/)
 - [Mullvad-vpn](https://mullvad.net/fr)
 
-Softwares : 
+__Softwares :__ 
 
 - [librewolf-bin](https://librewolf.net/)
 - [torbrowser-launcher](https://www.torproject.org/fr/download/)
@@ -174,7 +174,7 @@ Softwares :
 - [lutris](https://lutris.net/)
 - [neofetch](https://github.com/dylanaraps/neofetch)
 
-Drivers : 
+__Drivers :__ 
 
 - [mesa](https://archlinux.org/packages/extra/x86_64/mesa/)
 - [lib32-mesa](https://archlinux.org/packages/multilib/x86_64/lib32-mesa/)
@@ -182,7 +182,7 @@ Drivers :
 - [lib32-vulkan-radeon](https://archlinux.org/packages/multilib/x86_64/lib32-vulkan-radeon/)
 - [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/)
 
-Other softwares sources : 
+__Other softwares sources :__ 
 
 - [flatpak](https://www.flatpak.org/)
 
@@ -190,7 +190,7 @@ Other softwares sources :
 
 ---
 
-Gaming dependencies : 
+__Gaming dependencies :__ 
 
 ```proton-ge-custom wine-staging giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls
 mpg123 lib32-mpg123 openal lib32-openal v4l-utils lib32-v4l-utils libpulse lib32-libpulse libgpg-error
