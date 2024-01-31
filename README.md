@@ -117,17 +117,18 @@ We are there, the script is launched, we confirm or enter our password when requ
 
 Gnome light desktop environment : 
 
-- gnome-shell gnome-control-center 
-- gnome-tweaks 
-- gnome-terminal 
-- xdg-user-dirs 
-- networkmanager 
-- nautilus 
-- gnome-keyring 
-- xdg-desktop-portal 
-- xdg-desktop-portal-gnome 
-- gdm 
-- eog
+- [gnome-shell](https://archlinux.org/packages/extra/x86_64/gnome-shell/)
+- [gnome-control-center](https://archlinux.org/packages/extra/x86_64/gnome-control-center/)
+- [gnome-tweaks](https://archlinux.org/packages/extra/any/gnome-tweaks/)
+- [gnome-terminal](https://archlinux.org/packages/extra/x86_64/gnome-terminal/)
+- [xdg-user-dirs](https://archlinux.org/packages/extra/x86_64/xdg-user-dirs/)
+- [networkmanager](https://archlinux.org/packages/extra/x86_64/networkmanager/)
+- [nautilus](https://archlinux.org/packages/extra/x86_64/nautilus/) 
+- [gnome-keyring](https://archlinux.org/packages/extra/x86_64/gnome-keyring/)
+- [xdg-desktop-portal](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal/)
+- [xdg-desktop-portal-gnome](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal-gnome/)
+- [gdm](https://archlinux.org/packages/extra/x86_64/gdm/)
+- [eog](https://archlinux.org/packages/extra/x86_64/eog/)
 
 Gnome extensions : 
 
