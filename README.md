@@ -23,7 +23,7 @@ An installer script is also available : [archinstall](https://wiki.archlinux.org
 
 Launch archlinux installer and type "set loadkeys fr" (or any other country depending on your case)
 
-____Important : encrypt your drive with luks to avoid any data disclosure !____
+_ _ __Important : encrypt your drive with luks to avoid any data disclosure !__ _ _
 
 ---
 
