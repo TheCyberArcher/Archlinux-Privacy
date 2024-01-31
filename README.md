@@ -21,6 +21,8 @@ An installer script is also available : [archinstall](https://wiki.archlinux.org
 
 ### Preparation step : 
 
+<br />
+
 Unlike ready-to-use arch-based distribution installations, Archlinux is considered vanilla, a "mother" system that only includes the bare minimum. The principle is simple, we invite you to build an OS brick by brick and have exactly what you want.
 
 Essential preparation steps must be taken so that your system can be used on a daily basis.
@@ -33,6 +35,8 @@ First we will install the base-devel packages :
 
 ### yay AUR Helper
 
+<br />
+
 We therefore install "yay" an AUR helper which will retrieve everything that is not found in the official arch repositories by searching the user repository : 
 
 ```git clone https://aur.archlinux.org/yay.git``` \
@@ -42,6 +46,8 @@ We therefore install "yay" an AUR helper which will retrieve everything that is 
 ---
 
 ### Mirrors update
+
+<br />
 
 To update the mirrors, we add reflector, this will allow the software to be up to date and the correct flow to install:
 
@@ -69,6 +75,8 @@ We take this opportunity to update:
 
 ### Enable Multilib (AUR)
 
+<br />
+
 Now, we edit the pacman packet manager conf to enable the AUR
 
 ```sudo nano /etc/pacman.conf```
@@ -85,6 +93,8 @@ We can move on to the next step, retrieving my script and installing everything 
 
 ### Script Installation
 
+<br />
+
 ```git clone https://github.com/TheCyberArcher/Archlinux-Privacy.git ~/.local/script/archscript/``` \
 ```sudo chmod 777 -R ~/.local/script/``` \
 ```cd ~/.local/script/archscript/``` \
@@ -95,6 +105,8 @@ We are there, the script is launched, we confirm or enter our password when requ
 ---
 
 ### List of packets installed : 
+
+<br />
 
 Gnome light desktop environment : 
 
