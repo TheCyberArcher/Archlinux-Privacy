@@ -125,7 +125,7 @@ __Gnome light desktop environment :__
 - [gnome-terminal](https://archlinux.org/packages/extra/x86_64/gnome-terminal/) (powerful and customizable tool for running commands)
 - [xdg-user-dirs](https://archlinux.org/packages/extra/x86_64/xdg-user-dirs/) (Manage user directories)
 - [networkmanager](https://archlinux.org/packages/extra/x86_64/networkmanager/) (Network connection manager and user applications)
-- [nautilus](https://archlinux.org/packages/extra/x86_64/nautilus/) (Default file manager for gnome)
+- [nautilus](https://archlinux.org/packages/extra/x86_64/nautilus/) (default file manager for gnome)
 - [gnome-keyring](https://archlinux.org/packages/extra/x86_64/gnome-keyring/) (stores passwords and encryption keys)
 - [xdg-desktop-portal](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal/) (desktop integration portals for sandboxed apps)
 - [xdg-desktop-portal-gnome](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal-gnome/) (A backend implementation for xdg-desktop-portal for gnome)
