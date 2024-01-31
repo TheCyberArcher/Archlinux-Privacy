@@ -70,8 +70,6 @@ We update, but with yay now:
 
 We can move on to the next step, retrieving my script and installing everything we need to have a complete system.
 
-<br />
-
 ---
 
 ### Script Installation
