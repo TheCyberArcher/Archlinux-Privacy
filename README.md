@@ -119,18 +119,18 @@ We are there, the script is launched, we confirm or enter our password when requ
 
 __Gnome light desktop environment :__
 
-- [gnome-shell](https://archlinux.org/packages/extra/x86_64/gnome-shell/)(Next generation desktop shell)
-- [gnome-control-center](https://archlinux.org/packages/extra/x86_64/gnome-control-center/)
-- [gnome-tweaks](https://archlinux.org/packages/extra/any/gnome-tweaks/)
-- [gnome-terminal](https://archlinux.org/packages/extra/x86_64/gnome-terminal/)
-- [xdg-user-dirs](https://archlinux.org/packages/extra/x86_64/xdg-user-dirs/)
-- [networkmanager](https://archlinux.org/packages/extra/x86_64/networkmanager/)
-- [nautilus](https://archlinux.org/packages/extra/x86_64/nautilus/) 
-- [gnome-keyring](https://archlinux.org/packages/extra/x86_64/gnome-keyring/)
-- [xdg-desktop-portal](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal/)
-- [xdg-desktop-portal-gnome](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal-gnome/)
-- [gdm](https://archlinux.org/packages/extra/x86_64/gdm/)
-- [eog](https://archlinux.org/packages/extra/x86_64/eog/)
+- [gnome-shell](https://archlinux.org/packages/extra/x86_64/gnome-shell/) (Next generation desktop shell)
+- [gnome-control-center](https://archlinux.org/packages/extra/x86_64/gnome-control-center/) (main interface for gnome configuration)
+- [gnome-tweaks](https://archlinux.org/packages/extra/any/gnome-tweaks/) (utility for configuring multiples functionalities of gnome)
+- [gnome-terminal](https://archlinux.org/packages/extra/x86_64/gnome-terminal/) (powerful and customizable tool for running commands)
+- [xdg-user-dirs](https://archlinux.org/packages/extra/x86_64/xdg-user-dirs/) (Manage user directories)
+- [networkmanager](https://archlinux.org/packages/extra/x86_64/networkmanager/) (Network connection manager and user applications)
+- [nautilus](https://archlinux.org/packages/extra/x86_64/nautilus/) (Default file manager for gnome)
+- [gnome-keyring](https://archlinux.org/packages/extra/x86_64/gnome-keyring/) (stores passwords and encryption keys)
+- [xdg-desktop-portal](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal/) (desktop integration portals for sandboxed apps)
+- [xdg-desktop-portal-gnome](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal-gnome/) (A backend implementation for xdg-desktop-portal for gnome)
+- [gdm](https://archlinux.org/packages/extra/x86_64/gdm/) (gnome manager and login screen)
+- [eog](https://archlinux.org/packages/extra/x86_64/eog/) (default gnome image viewer)
 
 __Gnome extensions :__ 
 
