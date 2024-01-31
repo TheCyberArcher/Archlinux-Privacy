@@ -132,17 +132,17 @@ Gnome light desktop environment :
 
 Gnome extensions : 
 
-- gnome-shell-extension-appindicator-git
-- gnome-shell-extension-vitals-git 
-- gnome-shell-extension-display-brightness-ddcutil-git 
-- gnome-shell-extension-quick-settings-tweaks-git 
-- gnome-shell-extension-dash-to-dock 
-- gnome-shell-extension-gsconnect 
-- gnome-shell-extension-blur-my-shell 
-- gnome-shell-extension-pop-shell-git 
-- quick-settings-avatar.git
-- arch-update.git
-- no-overview.git
+- [gnome-shell-extension-appindicator-git](https://github.com/ubuntu/gnome-shell-extension-appindicator)
+- [gnome-shell-extension-vitals-git](https://github.com/corecoding/Vitals)
+- [gnome-shell-extension-display-brightness-ddcutil-git](https://github.com/daitj/gnome-display-brightness-ddcutil)
+- [gnome-shell-extension-quick-settings-tweaks-git](https://github.com/qwreey/quick-settings-tweaks)
+- [gnome-shell-extension-dash-to-dock](https://github.com/micheleg/dash-to-dock)
+- [gnome-shell-extension-gsconnect](https://github.com/GSConnect/gnome-shell-extension-gsconnect)
+- [gnome-shell-extension-blur-my-shell](https://github.com/aunetx/blur-my-shell)
+- [gnome-shell-extension-pop-shell-git](https://github.com/pop-os/shell)
+- [quick-settings-avatar.git](https://github.com/d-go/quick-settings-avatar)
+- [arch-update.git](https://github.com/RaphaelRochet/arch-update)
+- [no-overview.git](https://github.com/fthx/no-overview)
 
 Softwares : 
 
