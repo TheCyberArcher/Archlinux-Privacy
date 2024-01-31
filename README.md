@@ -33,7 +33,7 @@ Unlike ready-to-use arch-based distribution installations, Archlinux is consider
 
 Essential preparation steps must be taken so that your system can be used on a daily basis.
 
-First we will install the base-devel packages : 
+First we will install [base-devel](https://archlinux.org/packages/core/any/base-devel/) and [git](https://wiki.archlinux.org/title/Git) packages : 
 
 ```sudo pacman -S --needed base-devel git```
 
