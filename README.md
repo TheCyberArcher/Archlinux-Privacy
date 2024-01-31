@@ -55,7 +55,7 @@ We therefore install [yay](https://github.com/Jguer/yay) an [AUR helper](https:/
 
 <br />
 
-To update the mirrors, we add reflector, this will allow the software to be up to date and the correct flow to install:
+To update the [mirrors](https://wiki.archlinux.org/title/Mirrors), we add [reflector](https://wiki.archlinux.org/title/Reflector), this will allow the software to be up to date and the correct flow to install:
 
 ```pacman -S reflector nano```
 
