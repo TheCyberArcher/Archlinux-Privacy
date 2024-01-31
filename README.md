@@ -21,28 +21,50 @@ An installer script is also available : [archinstall](https://wiki.archlinux.org
 
 ### Preparation step : 
 
+
+Unlike ready-to-use arch-based distribution installations, Archlinux is considered vanilla, a "mother" system that only includes the bare minimum. The principle is simple, we invite you to build an OS brick by brick and have exactly what you want.
+
+Essential preparation steps must be taken so that your system can be used on a daily basis.
+
+First we will install the base-devel packages : 
+
 ```sudo pacman -S --needed base-devel git```
+
+We therefore install "yay" an AUR helper which will retrieve everything that is not found in the official arch repositories by searching the user repository : 
 
 ```git clone https://aur.archlinux.org/yay.git``` \
 ```cd yay``` \
 ```makepkg -si```
 
+To update the mirrors, we add reflector, this will allow the software to be up to date and the correct flow to install:
 
 ```pacman -S reflector nano```
 
+We edit the config file with nano (or another editor):
+
 ```sudo nano /etc/xdg/reflector/reflector.conf```
 
-Modify : --country 'YOUR COUNTRY','OR COUNTRIES'
+Modify this line with your information:
+
+```--country 'YOUR COUNTRY','OR COUNTRIES'```
+
+We activate and start the service:
 
 ```sudo systemctl enable reflector.service reflector.timer``` \
 ```sudo systemctl start reflector.service reflector.timer``` \
 ```sudo systemctl start reflector.service```
 
+We take this opportunity to update:
+
 ```sudo pacman -Syu```
 
-Modify /etc/pacman.conf
+Now, we edit the pacman packet manager conf to enable the AUR
+
+```sudo nano /etc/pacman.conf```
 
 uncomment the line "multilib"
+
+We update, but with yay now:
 
 ```yay -Syyuu```
 
