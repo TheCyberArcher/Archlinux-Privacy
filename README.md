@@ -12,6 +12,8 @@
 
 ---
 
+<br />
+
 Create an usb key with usbdiskimager
 
 Launch archlinux installer and type "set loadkeys fr"
