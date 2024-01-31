@@ -119,7 +119,7 @@ We are there, the script is launched, we confirm or enter our password when requ
 
 __Gnome light desktop environment :__
 
-- [gnome-shell](https://archlinux.org/packages/extra/x86_64/gnome-shell/)
+- [gnome-shell](https://archlinux.org/packages/extra/x86_64/gnome-shell/)(Next generation desktop shell)
 - [gnome-control-center](https://archlinux.org/packages/extra/x86_64/gnome-control-center/)
 - [gnome-tweaks](https://archlinux.org/packages/extra/any/gnome-tweaks/)
 - [gnome-terminal](https://archlinux.org/packages/extra/x86_64/gnome-terminal/)
