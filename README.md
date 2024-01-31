@@ -104,7 +104,7 @@ We are there, the script is launched, we confirm or enter our password when requ
 
 ---
 
-### List of packets installed : 
+### List of packets : 
 
 <br />
 
