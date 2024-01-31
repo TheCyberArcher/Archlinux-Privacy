@@ -29,7 +29,7 @@ Launch archlinux installer and type "set loadkeys fr" (or any other country depe
 
 <br />
 
-Unlike ready-to-use arch-based distribution installations, Archlinux is considered vanilla, a "mother" system that only includes the bare minimum. The principle is simple, we invite you to build an OS brick by brick and have exactly what you want.
+Unlike ready-to-use arch-based distribution installations, [Archlinux](https://fr.wikipedia.org/wiki/Arch_Linux) is considered vanilla, a "mother" system that only includes the bare minimum. The principle is simple, we invite you to build an OS brick by brick and have exactly what you want.
 
 Essential preparation steps must be taken so that your system can be used on a daily basis.
 
@@ -43,7 +43,7 @@ First we will install [base-devel](https://archlinux.org/packages/core/any/base-
 
 <br />
 
-We therefore install "yay" an AUR helper which will retrieve everything that is not found in the official arch repositories by searching the user repository : 
+We therefore install [yay](https://github.com/Jguer/yay) an [AUR helper](https://wiki.archlinux.org/title/AUR_helpers) which will retrieve everything that is not found in the official arch repositories by searching the user repository : 
 
 ```git clone https://aur.archlinux.org/yay.git``` \
 ```cd yay``` \
