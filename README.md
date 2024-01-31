@@ -68,12 +68,18 @@ We update, but with yay now:
 
 ```yay -Syyuu```
 
+We can move on to the next step, retrieving my script and installing everything we need to have a complete system.
+
+<br />
+
 ### Script Installation
 
 ```git clone https://github.com/TheCyberArcher/Archlinux-Privacy.git ~/.local/script/archscript/``` \
 ```sudo chmod 777 -R ~/.local/script/``` \
 ```cd ~/.local/script/archscript/``` \
 ```bash Installation.sh```
+
+We are there, the script is launched, we confirm or enter our password when requested, this will install a minimal gnome desktop environment and all the tools that I use on a daily basis but also configure the configuration files.
 
 <br />
 
