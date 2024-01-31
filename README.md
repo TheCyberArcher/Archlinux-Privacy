@@ -146,40 +146,38 @@ Gnome extensions :
 
 Softwares : 
 
-- librewolf-bin 
-- torbrowser-launcher 
-- thunderbird 
-- keepassxc 
-- webapp-manager 
-- extension-manager 
-- qbittorrent 
-- btop 
-- onlyoffice-bin 
-- visual-studio-code-bin 
-- virtualbox 
-- openrgb-bin 
-- corectrl 
-- ddcutil 
-- vlc 
-- corectrl 
-- discord 
-- signal-desktop 
-- steam 
-- lutris 
-- neofetch 
-- virtualbox
-- hidamari
+- [librewolf-bin](https://librewolf.net/)
+- [torbrowser-launcher](https://www.torproject.org/fr/download/)
+- [thunderbird](https://www.thunderbird.net/fr/)
+- [keepassxc](https://keepassxc.org/)
+- [webapp-manager](https://aur.archlinux.org/packages/webapp-manager)
+- [extension-manager](https://aur.archlinux.org/packages/extension-manager)
+- [qbittorrent](https://www.qbittorrent.org/)
+- [btop](https://github.com/aristocratos/btop)
+- [onlyoffice-bin](https://www.onlyoffice.com/fr/)
+- [visual-studio-code-bin](https://code.visualstudio.com/)
+- [virtualbox](https://www.virtualbox.org/)
+- [openrgb-bin](https://openrgb.org/)
+- [corectrl](https://gitlab.com/corectrl/corectrl)
+- [ddcutil](https://www.ddcutil.com/)
+- [vlc](https://www.videolan.org/vlc/)
+- [discord](https://discord.com/)
+- [signal-desktop](https://signal.org/download/)
+- [steam](https://store.steampowered.com/)
+- [lutris](https://lutris.net/)
+- [neofetch](https://github.com/dylanaraps/neofetch)
 
 Drivers : 
 
-- mesa 
-- lib32-mesa 
-- vulkan-radeon 
-- lib32-vulkan-radeon
+- [mesa](https://archlinux.org/packages/extra/x86_64/mesa/)
+- [lib32-mesa](https://archlinux.org/packages/multilib/x86_64/lib32-mesa/)
+- [vulkan-radeon](https://archlinux.org/packages/extra/x86_64/vulkan-radeon/)
+- [lib32-vulkan-radeon](https://archlinux.org/packages/multilib/x86_64/lib32-vulkan-radeon/)
+- [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/)
 
 Other softwares sources : 
 
-- flatpack
+- [flatpak](https://www.flatpak.org/)
 
 <br />
 
