@@ -83,7 +83,7 @@ We take this opportunity to update:
 
 <br />
 
-Now, we edit the pacman packet manager conf to enable the AUR
+Now, we edit the pacman packet manager conf to enable the [AUR](https://aur.archlinux.org/)
 
 ```sudo nano /etc/pacman.conf```
 
