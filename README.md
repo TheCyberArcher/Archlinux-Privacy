@@ -4,6 +4,8 @@
 
 >This script is a variation of the original script dedicated to EndeavourOS for more details and the full tutorial, go here. 
 
+<br />
+
 [![image.png](https://i.postimg.cc/GhwB6JhJ/image.png)](https://postimg.cc/jCcd7ffL)
 
 >This page aims to list the configuration of my Archlinux install. Its rolling release system allows this platform to be permanently up to date and benefit from the latest technologies. Here, I detail step by step how I configure my system to obtain both an OS that protects my privacy extensively, while obtaining ergonomics adapted to my productivity tasks. Also included are some additional features to cover gaming uses.
