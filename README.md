@@ -2,7 +2,7 @@
 
 <br />
 
->This script is a variation of the original script dedicated to EndeavourOS for more details and the full tutorial, go here. 
+>This script is a variation of the original script dedicated to EndeavourOS for more details and the full tutorial, go [here](https://github.com/TheCyberArcher/EndeavourOS-Privacy). 
 
 <br />
 
@@ -18,10 +18,10 @@
 
 Create an usb key with usbdiskimager
 
-Launch archlinux installer and type "set loadkeys fr"
-
 >You can install archlinux manually, I let you refer to the documentation present on the official [archlinux website](https://wiki.archlinux.org/title/Installation_guide) \
 An installer script is also available : [archinstall](https://wiki.archlinux.org/title/Archinstall)
+
+Launch archlinux installer and type "set loadkeys fr" (or any other country depending on your case)
 
 ---
 
