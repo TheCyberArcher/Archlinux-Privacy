@@ -144,6 +144,11 @@ Gnome extensions :
 - [arch-update.git](https://github.com/RaphaelRochet/arch-update)
 - [no-overview.git](https://github.com/fthx/no-overview)
 
+Firewall and VPN : 
+
+- [firewalld](https://firewalld.org/)
+- [Mullvad-vpn](https://mullvad.net/fr)
+
 Softwares : 
 
 - [librewolf-bin](https://librewolf.net/)
