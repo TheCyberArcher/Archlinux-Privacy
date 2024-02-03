@@ -37,7 +37,7 @@ mullvad dns set default --block-ads --block-trackers --block-malware --block-gam
 
 #Desktop environment installation
 
-yay -S gnome-shell gnome-control-center gnome-tweaks gnome-terminal xdg-user-dirs networkmanager nautilus gnome-keyring xdg-desktop-portal xdg-desktop-portal-gnome gdm eog
+yay -S gnome-shell gnome-control-center gnome-tweaks gnome-terminal xdg-user-dirs networkmanager nautilus gnome-keyring xdg-desktop-portal xdg-desktop-portal-gnome gdm eog gdm-settings 
 
 mkdir ~/.local/share/gnome-shell/extensions/
 
