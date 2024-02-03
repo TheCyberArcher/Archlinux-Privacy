@@ -54,6 +54,7 @@ yay -S gnome-shell-extension-pop-shell-git
 git clone https://github.com/d-go/quick-settings-avatar.git ~/.local/share/gnome-shell/extensions/"quick-settings-avatar@d-go"
 git clone https://github.com/RaphaelRochet/arch-update.git ~/.local/share/gnome-shell/extensions/"arch-update@RaphaelRochet"
 git clone https://github.com/fthx/no-overview.git ~/.local/share/gnome-shell/extensions/"no-overview@fthx"
+git clone https://github.com/Aryan20/Logomenu.git  ~/.local/share/gnome-shell/extensions/"logomenu@aryan_k"/
 
 sudo systemctl enable gdm.service
 gsettings set org.gnome.shell disable-user-extensions false
