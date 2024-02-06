@@ -48,7 +48,7 @@ yay -S gnome-shell-extension-quick-settings-tweaks-git
 yay -S gnome-shell-extension-dash-to-dock 
 yay -S gnome-shell-extension-gsconnect 
 yay -S gnome-shell-extension-blur-my-shell 
-yay -S gnome-shell-extension-pop-shell-git 
+yay -S gnome-shell-extension-forge
 
 
 git clone https://github.com/d-go/quick-settings-avatar.git ~/.local/share/gnome-shell/extensions/"quick-settings-avatar@d-go"
