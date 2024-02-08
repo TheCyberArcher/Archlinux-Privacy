@@ -35,7 +35,7 @@ An installer script is also available : [archinstall](https://wiki.archlinux.org
 
 Open a shell and paste this command :
 
-ping aur.archlinux.org
+```ping aur.archlinux.org```
 
 ---
 
@@ -109,6 +109,46 @@ We update, but with yay now:
 ```yay -Syyuu```
 
 We can move on to the next step, retrieving my script and installing everything we need to have a complete system.
+
+### Configure the DNS
+
+<br />
+
+```nmcli con mod "Connexion filaire 1" ipv4.ignore-auto-dns yes``` \
+```nmcli con mod "Connexion filaire 1" ipv4.dns "45.90.28.250 45.90.30.250 9.9.9.9 149.112.112.112 1.1.1.1"```
+
+---
+
+### Install a VPN
+
+<br />
+
+A VPN allows you to identify your IP and therefore remain anonymous. Add to this that most solutions also offer blocking of malicious sites, trackers and data collection by third parties.
+
+<br />
+
+>Several VPNs exist, here we offer you the choice of Mullvad-VPN or Proton-VPN.These two players are the most reliable on the market, preference to Mullvad, who has been able to prove in many cases that his no logs policy is indeed valid.
+
+<br />
+
+Mullvad : https://mullvad.net/fr  
+Proton : https://protonvpn.com/fr
+
+<br />
+
+Paste in a shell : ``` yay –S mullvad-vpn-bin ```
+
+or ``` yay –S protonvpn-gui ```
+
+<br />
+
+Open the VPN and set the connexion to « autostart ».
+Enter your mullvad login, a unique code of numbers.
+In VPN settings, choose DNS content blocker. Select Ads, Tracker, Malware, Gambling, Adult Content and Social Media.
+
+<br />
+
+[![Mullvad2.png](https://i.postimg.cc/C1MqFMmK/Mullvad2.png)](https://postimg.cc/B8y6p3WW)
 
 ---
 
