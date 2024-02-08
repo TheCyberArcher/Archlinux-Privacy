@@ -162,11 +162,11 @@ __Softwares :__
 - [vlc](https://www.videolan.org/vlc/) (Best open source media player)
 - [Webcord](https://discord.com/) (Open-source discord client)
 - [signal-desktop](https://signal.org/download/) (Encrypted messaging)
+- [telegram-desktop](https://telegram.org/) (secure messaging client)
 - [steam](https://store.steampowered.com/) (Steam game client)
 - [lutris](https://lutris.net/) (Gaming on Linux)
 - [neofetch](https://github.com/dylanaraps/neofetch) (Display software and hardware configuration)
 - [proton-bridge](https://proton.me/mail/bridge) (Gateway for proton email integration in thunderbird)
-- [Telegram-desktop](https://telegram.org/) (secure messaging client)
 
 __Drivers :__ 
 
