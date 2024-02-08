@@ -89,8 +89,8 @@ EOF"
 
 #ddcutil file configuration
 
-sudo touch /etc/modules-load.d/i2c.conf
-sudo echo i2c_dev >> /etc/modules-load.d/i2c.conf
+su - -c "touch /etc/modules-load.d/i2c.conf"
+su - -c "echo i2c_dev >> /etc/modules-load.d/i2c.conf"
 
 #virtualbox user configuration
 
