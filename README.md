@@ -134,9 +134,6 @@ __Gnome light desktop environment :__
 
 __Gnome extensions :__ 
 
-
-
-
 - [gnome-shell-extension-dash-to-dock](https://github.com/micheleg/dash-to-dock)
 - [gnome-shell-extension-blur-my-shell](https://github.com/aunetx/blur-my-shell)
 - [Forge](https://github.com/forge-ext/forge)
