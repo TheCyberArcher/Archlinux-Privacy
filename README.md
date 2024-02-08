@@ -160,7 +160,7 @@ __Softwares :__
 - [corectrl](https://gitlab.com/corectrl/corectrl) (Radeon GPU control and monitoring)
 - [ddcutil](https://www.ddcutil.com/) (Control the screen brightness)
 - [vlc](https://www.videolan.org/vlc/) (Best open source media player)
-- [Webcord](https://discord.com/) (Open-source discord client)
+- [webcord](https://discord.com/) (Open-source discord client)
 - [signal-desktop](https://signal.org/download/) (Encrypted messaging)
 - [telegram-desktop](https://telegram.org/) (secure messaging client)
 - [steam](https://store.steampowered.com/) (Steam game client)
