@@ -166,6 +166,7 @@ __Softwares :__
 - [lutris](https://lutris.net/) (Gaming on Linux)
 - [neofetch](https://github.com/dylanaraps/neofetch) (Display software and hardware configuration)
 - [proton-bridge](https://proton.me/mail/bridge) (Gateway for proton email integration in thunderbird)
+- [Telegram-desktop](https://telegram.org/) (secure messaging client)
 
 __Drivers :__ 
 
