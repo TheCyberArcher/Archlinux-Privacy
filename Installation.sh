@@ -41,10 +41,21 @@ yay -S gnome-shell gnome-control-center gnome-tweaks gnome-terminal xdg-user-dir
 
 mkdir ~/.local/share/gnome-shell/extensions/
 
+yay -S gnome-shell-extension-appindicator-git 
+yay -S gnome-shell-extension-vitals-git 
+yay -S gnome-shell-extension-display-brightness-ddcutil-git 
+yay -S gnome-shell-extension-quick-settings-tweaks-git 
 yay -S gnome-shell-extension-dash-to-dock 
+yay -S gnome-shell-extension-gsconnect 
 yay -S gnome-shell-extension-blur-my-shell 
 yay -S gnome-shell-extension-forge
-yay -S gnome-shell-extension-just-perfection-desktop
+
+
+git clone https://github.com/d-go/quick-settings-avatar.git ~/.local/share/gnome-shell/extensions/"quick-settings-avatar@d-go"
+git clone https://github.com/RaphaelRochet/arch-update.git ~/.local/share/gnome-shell/extensions/"arch-update@RaphaelRochet"
+git clone https://github.com/fthx/no-overview.git ~/.local/share/gnome-shell/extensions/"no-overview@fthx"
+git clone https://github.com/Aryan20/Logomenu.git  ~/.local/share/gnome-shell/extensions/"logomenu@aryan_k"
+git clone https://github.com/christopher-l/space-bar.git ~/.local/share/gnome-shell/extensions/"space-bar@luchrioh"
 
 sudo systemctl enable gdm.service
 gsettings set org.gnome.shell disable-user-extensions false
