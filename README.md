@@ -221,19 +221,27 @@ This part depends on your requirements, your needs and your use of the machine.\
 These are the ones I use on a daily basis, but I will try to bring you the most privacy-friendly tools.\
 The tools I list are not exhaustive.
 
-- [LibreWolf](https://librewolf.net/) : ```yay –S librewolf-bin``` 
-- [TorBrowser](https://www.torproject.org/fr/download/) : ```yay –S torbrowser-launcher```
-- [Thunderbird](https://www.thunderbird.net/fr/) : ```yay –S thunderbird```
-- [KeepassXC](https://keepassxc.org/) : ```yay –S keepassxc```
-- [WebAppManager](https://github.com/linuxmint/webapp-manager) : ```yay –S webapp-manager```
-- [Qbittorrent](https://www.qbittorrent.org/download) : ```yay –S qbittorrent```
-- [Btop](https://github.com/aristocratos/btop) : ```yay –S btop```
-- [OnlyOffice](https://www.onlyoffice.com/fr/) : ```yay –S onlyoffice-bin```
-- [CodeOSS](https://flathub.org/apps/com.visualstudio.code-oss) : ```yay –S code```
-- [OpenRGB](https://openrgb.org/) : ```yay –S openrgb-bin```
-- [VLC](https://www.videolan.org/vlc/index.fr.html) : ```yay -S vlc```
-- [Discord](https://discord.com/) : ```yay -S discord```
-- [Signal](https://signal.org/fr/) : ```yay -S signal-desktop```
+- [librewolf-bin](https://librewolf.net/) ```yay -S librewolf-bin```
+- [torbrowser-launcher](https://www.torproject.org/fr/download/) ```yay -S torbrowser-launcher```
+- [thunderbird](https://www.thunderbird.net/fr/) ```yay -S thunderbird```
+- [keepassxc](https://keepassxc.org/) ```yay -S keepassxc```
+- [webapp-manager](https://aur.archlinux.org/packages/webapp-manager) ```yay -S webapp-manager```
+- [qbittorrent](https://www.qbittorrent.org/) (Torrent Client)
+- [btop](https://github.com/aristocratos/btop) (Hardware and process monitoring)
+- [onlyoffice-bin](https://www.onlyoffice.com/fr/) (Office Suite alternative)
+- [visual-studio-code-bin](https://code.visualstudio.com/) (The best code editor)
+- [virtualbox](https://www.virtualbox.org/) (Oracle virtualisation tool)
+- [openrgb-bin](https://openrgb.org/) (Control the computer RGB)
+- [corectrl](https://gitlab.com/corectrl/corectrl) (Radeon GPU control and monitoring)
+- [ddcutil](https://www.ddcutil.com/) (Control the screen brightness)
+- [vlc](https://www.videolan.org/vlc/) (Best open source media player)
+- [webcord](https://discord.com/) (Open-source discord client)
+- [signal-desktop](https://signal.org/download/) (Encrypted messaging)
+- [telegram-desktop](https://telegram.org/) (Secure messaging client)
+- [steam](https://store.steampowered.com/) (Steam game client)
+- [lutris](https://lutris.net/) (Gaming on Linux)
+- [neofetch](https://github.com/dylanaraps/neofetch) (Display software and hardware configuration)
+- [proton-bridge](https://proton.me/mail/bridge) (Gateway for proton email integration in thunderbird)
 
 ---
 
