@@ -134,7 +134,7 @@ __Gnome light desktop environment :__
 
 __Gnome extensions :__ 
 
-- [gnome-shell-extension-dash-to-dock](https://github.com/micheleg/dash-to-dock) (Pin the dock to your desktop linke OSX style)
+- [gnome-shell-extension-dash-to-dock](https://github.com/micheleg/dash-to-dock) (Pin the dock to your desktop like OSX style)
 - [gnome-shell-extension-blur-my-shell](https://github.com/aunetx/blur-my-shell) (Add blur decoration to overview)
 - [Forge](https://github.com/forge-ext/forge) (Tilling Windows Management)
 - [Just Perfection](https://gitlab.gnome.org/jrahmatzadeh/just-perfection) (Remove the top bar, overview at startup and other feature)
