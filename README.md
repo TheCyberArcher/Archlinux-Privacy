@@ -147,6 +147,8 @@ Verify the run : ```firewall-cmd --state```
 
 Set the default zone : ```firewall-cmd --set-default-zone=work```
 
+---
+
 ### DNS configuration
 
 <br />
