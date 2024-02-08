@@ -127,6 +127,11 @@ We will install gnome with extensions, in a minimal version
 
 ```yay -S gnome-shell-extension-dash-to-dock gnome-shell-extension-blur-my-shell gnome-shell-extension-forge gnome-shell-extension-just-perfection-desktop```
 
+After this, activate the environment : 
+
+```sudo systemctl enable gdm.service```
+```gsettings set org.gnome.shell disable-user-extensions false```
+
 ---
 
 ### List of packets : 
