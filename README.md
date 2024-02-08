@@ -134,15 +134,15 @@ __Gnome light desktop environment :__
 
 __Gnome extensions :__ 
 
-- [gnome-shell-extension-dash-to-dock](https://github.com/micheleg/dash-to-dock)
-- [gnome-shell-extension-blur-my-shell](https://github.com/aunetx/blur-my-shell)
-- [Forge](https://github.com/forge-ext/forge)
-- [Just Perfection](https://gitlab.gnome.org/jrahmatzadeh/just-perfection)
+- [gnome-shell-extension-dash-to-dock](https://github.com/micheleg/dash-to-dock) (Pin the dock to your desktop linke OSX style)
+- [gnome-shell-extension-blur-my-shell](https://github.com/aunetx/blur-my-shell) (Add blur decoration to overview)
+- [Forge](https://github.com/forge-ext/forge) (Tilling Windows Management)
+- [Just Perfection](https://gitlab.gnome.org/jrahmatzadeh/just-perfection) (Remove the top bar, overview at startup and other feature)
 
 __Firewall and VPN :__ 
 
-- [firewalld](https://firewalld.org/)
-- [Mullvad-vpn](https://mullvad.net/fr)
+- [firewalld](https://firewalld.org/) (Best firewall solution for Linux)
+- [Mullvad-vpn](https://mullvad.net/fr) (VPN no logs for privacy)
 
 __Softwares :__ 
 
