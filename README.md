@@ -112,6 +112,28 @@ We can move on to the next step, retrieving my script and installing everything 
 
 ---
 
+### Desktop Environment Installation
+
+<br />
+
+We will install gnome with extensions, in a minimal version
+
+- Minimal Gnome and GDM login manager
+- Just perfect extension to remove the top bar
+- Forge extension to have tilling management for window management
+- The dash to dock extension to pin a dock to the desktop
+
+```yay -S gnome-shell gnome-control-center gnome-tweaks gnome-terminal xdg-user-dirs networkmanager nautilus gnome-keyring xdg-desktop-portal xdg-desktop-portal-gnome gdm eog gdm-settings```
+
+```yay -S gnome-shell-extension-dash-to-dock gnome-shell-extension-blur-my-shell gnome-shell-extension-forge gnome-shell-extension-just-perfection-desktop```
+
+After this, activate the environment : 
+
+```sudo systemctl enable gdm.service``` \
+```gsettings set org.gnome.shell disable-user-extensions false```
+
+---
+
 ### Firewall configuration
 
 <br />
@@ -186,28 +208,6 @@ In VPN settings, choose DNS content blocker. Select Ads, Tracker, Malware, Gambl
 <br />
 
 [![Mullvad2.png](https://i.postimg.cc/C1MqFMmK/Mullvad2.png)](https://postimg.cc/B8y6p3WW)
-
----
-
-### Desktop Environment Installation
-
-<br />
-
-We will install gnome with extensions, in a minimal version
-
-- Minimal Gnome and GDM login manager
-- Just perfect extension to remove the top bar
-- Forge extension to have tilling management for window management
-- The dash to dock extension to pin a dock to the desktop
-
-```yay -S gnome-shell gnome-control-center gnome-tweaks gnome-terminal xdg-user-dirs networkmanager nautilus gnome-keyring xdg-desktop-portal xdg-desktop-portal-gnome gdm eog gdm-settings```
-
-```yay -S gnome-shell-extension-dash-to-dock gnome-shell-extension-blur-my-shell gnome-shell-extension-forge gnome-shell-extension-just-perfection-desktop```
-
-After this, activate the environment : 
-
-```sudo systemctl enable gdm.service``` \
-```gsettings set org.gnome.shell disable-user-extensions false```
 
 ---
 
