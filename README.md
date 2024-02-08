@@ -114,6 +114,32 @@ We can move on to the next step, retrieving my script and installing everything 
 
 <br />
 
+### DNS configuration
+
+<br />
+
+Open Gnome Settings and go to the network page.\
+On your network media, open settings and go to IPV4.
+
+The list of encrypted DNS is available on : [privacytools.io](https://www.privacytools.io/encrypted-dns)
+
+At first, we set NextDNS, in secondary AdGuard and Cloudflare (if necessary) : 
+
+``` 45.90.28.250, 45.90.30.250, 9.9.9.9, 149.112.112.112, 1.1.1.1 ```
+
+<br />
+
+[![Network.png](https://i.postimg.cc/tC6YGVp5/Network.png)](https://postimg.cc/4mJJzyK7)
+
+<br />
+
+>These DNS will integrate feeds of malicious sites, with large blocking lists and also prevent data collection.\
+Useful when you are not using the VPN, it will always be safer than using the one from Google or your ISP.
+
+<br />
+
+Or in command lane : 
+
 ```nmcli con mod "Connexion filaire 1" ipv4.ignore-auto-dns yes``` \
 ```nmcli con mod "Connexion filaire 1" ipv4.dns "45.90.28.250 45.90.30.250 9.9.9.9 149.112.112.112 1.1.1.1"```
 
