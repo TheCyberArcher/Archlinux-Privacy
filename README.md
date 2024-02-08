@@ -129,7 +129,7 @@ We will install gnome with extensions, in a minimal version
 
 After this, activate the environment : 
 
-```sudo systemctl enable gdm.service```
+```sudo systemctl enable gdm.service``` \
 ```gsettings set org.gnome.shell disable-user-extensions false```
 
 ---
