@@ -16,14 +16,26 @@
 
 <br />
 
-Create an usb key with [usbdiskimager](https://bztsrc.gitlab.io/usbimager/)
+- Create an usb key with [usbdiskimager](https://bztsrc.gitlab.io/usbimager/)
 
 >You can install archlinux manually, I let you refer to the documentation present on the official [archlinux website](https://wiki.archlinux.org/title/Installation_guide) \
 An installer script is also available : [archinstall](https://wiki.archlinux.org/title/Archinstall)
 
-Launch archlinux installer and type "set loadkeys fr" (or any other country depending on your case)
+- Launch archlinux installer and type "set loadkeys fr" (or any other country depending on your case)
+
+- Select Systemd-boot for the bootloader choice
 
 *__Important : encrypt your drive with luks to avoid any data disclosure !__*
+
+---
+
+### Verify the connectivity
+
+<br />
+
+Open a shell and paste this command :
+
+ping aur.archlinux.org
 
 ---
 
@@ -100,16 +112,20 @@ We can move on to the next step, retrieving my script and installing everything 
 
 ---
 
-### Script Installation
+### Desktop Environment Installation
 
 <br />
 
-```git clone https://github.com/TheCyberArcher/Archlinux-Privacy.git ~/.local/script/archscript/``` \
-```sudo chmod 777 -R ~/.local/script/``` \
-```cd ~/.local/script/archscript/``` \
-```bash Installation.sh```
+We will install gnome with extensions, in a minimal version
 
-We are there, the script is launched, we confirm or enter our password when requested, this will install a minimal gnome desktop environment and all the tools that I use on a daily basis but also configure the configuration files.
+- Minimal Gnome and GDM login manager
+- Just perfect extension to remove the top bar
+- Forge extension to have tilling management for window management
+- The dash to dock extension to pin a dock to the desktop
+
+```yay -S gnome-shell gnome-control-center gnome-tweaks gnome-terminal xdg-user-dirs networkmanager nautilus gnome-keyring xdg-desktop-portal xdg-desktop-portal-gnome gdm eog gdm-settings```
+
+```yay -S gnome-shell-extension-dash-to-dock gnome-shell-extension-blur-my-shell gnome-shell-extension-forge gnome-shell-extension-just-perfection-desktop```
 
 ---
 
