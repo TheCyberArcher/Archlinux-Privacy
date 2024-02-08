@@ -270,7 +270,7 @@ If you need additional protection, use the [tor-browser](https://www.torproject.
 The choice of virtualization tool will depend on what you need. Virtualbox can do the job very well.\
 If you need passtrough GPU or optimal performance, better kernel level and therefore Quemu.
 
-- [Virtualbox](https://www.virtualbox.org/) : ```yay –S virtualbox```
+- [Virtualbox](https://www.virtualbox.org/) : ```yay –S virtualbox``` and ```yay -S virtualbox-host-modules-arch```
 - [Quemu](https://www.qemu.org/) : ```qemu-desktop```
 
 <br />
