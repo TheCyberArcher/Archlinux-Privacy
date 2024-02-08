@@ -1,4 +1,4 @@
-# Archlinux-Privacy
+# Archlinux-Privacy-Minimal
 
 <br />
 
