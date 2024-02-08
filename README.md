@@ -178,9 +178,6 @@ __Drivers :__
 - [lib32-vulkan-radeon](https://archlinux.org/packages/multilib/x86_64/lib32-vulkan-radeon/)
 - [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/)
 
-__Other softwares sources :__ 
-
-- [flatpak](https://www.flatpak.org/)
 
 <br />
 
