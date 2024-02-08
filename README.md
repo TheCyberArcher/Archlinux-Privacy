@@ -27,8 +27,6 @@ An installer script is also available : [archinstall](https://wiki.archlinux.org
 
 *__Important : encrypt your drive with luks to avoid any data disclosure !__*
 
-[![image.png](https://github.com/edent/SuperTinyIcons/blob/master/images/svg/duckduckgo.svg)
-
 ---
 
 ### Verify the connectivity
