@@ -168,11 +168,11 @@ __Softwares :__
 
 __Drivers :__ 
 
-- [mesa](https://archlinux.org/packages/extra/x86_64/mesa/)
-- [lib32-mesa](https://archlinux.org/packages/multilib/x86_64/lib32-mesa/)
-- [vulkan-radeon](https://archlinux.org/packages/extra/x86_64/vulkan-radeon/)
-- [lib32-vulkan-radeon](https://archlinux.org/packages/multilib/x86_64/lib32-vulkan-radeon/)
-- [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/)
+- [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) (Radeon gpu driver)
+- [lib32-mesa](https://archlinux.org/packages/multilib/x86_64/lib32-mesa/) (32 bits gpu driver)
+- [vulkan-radeon](https://archlinux.org/packages/extra/x86_64/vulkan-radeon/) (Vulkan for radeon)
+- [lib32-vulkan-radeon](https://archlinux.org/packages/multilib/x86_64/lib32-vulkan-radeon/) (32 bits vulkan for radeon)
+- [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/) (Vulkan tools)
 
 
 <br />
