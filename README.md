@@ -160,11 +160,12 @@ __Softwares :__
 - [corectrl](https://gitlab.com/corectrl/corectrl) (Radeon GPU control and monitoring)
 - [ddcutil](https://www.ddcutil.com/) (Control the screen brightness)
 - [vlc](https://www.videolan.org/vlc/) (Best open source media player)
-- [discord](https://discord.com/) (Social chat and forum client)
+- [Webcord](https://discord.com/) (Open-source discord client)
 - [signal-desktop](https://signal.org/download/) (Encrypted messaging)
 - [steam](https://store.steampowered.com/) (Steam game client)
 - [lutris](https://lutris.net/) (Gaming on Linux)
 - [neofetch](https://github.com/dylanaraps/neofetch) (Display software and hardware configuration)
+- [proton-bridge](https://proton.me/mail/bridge) (Gateway for proton email integration in thunderbird)
 
 __Drivers :__ 
 
