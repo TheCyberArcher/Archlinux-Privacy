@@ -146,12 +146,11 @@ __Firewall and VPN :__
 
 __Softwares :__ 
 
-- [librewolf-bin](https://librewolf.net/)
-- [torbrowser-launcher](https://www.torproject.org/fr/download/)
-- [thunderbird](https://www.thunderbird.net/fr/)
-- [keepassxc](https://keepassxc.org/)
-- [webapp-manager](https://aur.archlinux.org/packages/webapp-manager)
-- [extension-manager](https://aur.archlinux.org/packages/extension-manager)
+- [librewolf-bin](https://librewolf.net/) (Privacy focused web browser)
+- [torbrowser-launcher](https://www.torproject.org/fr/download/) (Privacy focused web browser with tor routing)
+- [thunderbird](https://www.thunderbird.net/fr/) (Mozilla mail client)
+- [keepassxc](https://keepassxc.org/) (Encrypt your password database)
+- [webapp-manager](https://aur.archlinux.org/packages/webapp-manager) (Create application desktop with web based website)
 - [qbittorrent](https://www.qbittorrent.org/)
 - [btop](https://github.com/aristocratos/btop)
 - [onlyoffice-bin](https://www.onlyoffice.com/fr/)
