@@ -226,22 +226,22 @@ The tools I list are not exhaustive.
 - [thunderbird](https://www.thunderbird.net/fr/) ```yay -S thunderbird```
 - [keepassxc](https://keepassxc.org/) ```yay -S keepassxc```
 - [webapp-manager](https://aur.archlinux.org/packages/webapp-manager) ```yay -S webapp-manager```
-- [qbittorrent](https://www.qbittorrent.org/) (Torrent Client)
-- [btop](https://github.com/aristocratos/btop) (Hardware and process monitoring)
-- [onlyoffice-bin](https://www.onlyoffice.com/fr/) (Office Suite alternative)
-- [visual-studio-code-bin](https://code.visualstudio.com/) (The best code editor)
-- [virtualbox](https://www.virtualbox.org/) (Oracle virtualisation tool)
-- [openrgb-bin](https://openrgb.org/) (Control the computer RGB)
-- [corectrl](https://gitlab.com/corectrl/corectrl) (Radeon GPU control and monitoring)
-- [ddcutil](https://www.ddcutil.com/) (Control the screen brightness)
-- [vlc](https://www.videolan.org/vlc/) (Best open source media player)
-- [webcord](https://discord.com/) (Open-source discord client)
-- [signal-desktop](https://signal.org/download/) (Encrypted messaging)
-- [telegram-desktop](https://telegram.org/) (Secure messaging client)
-- [steam](https://store.steampowered.com/) (Steam game client)
-- [lutris](https://lutris.net/) (Gaming on Linux)
-- [neofetch](https://github.com/dylanaraps/neofetch) (Display software and hardware configuration)
-- [proton-bridge](https://proton.me/mail/bridge) (Gateway for proton email integration in thunderbird)
+- [qbittorrent](https://www.qbittorrent.org/) ```yay -S qbittorrent```
+- [btop](https://github.com/aristocratos/btop) ```yay -S btop```
+- [onlyoffice-bin](https://www.onlyoffice.com/fr/) ```yay -S onlyoffice-bin```
+- [visual-studio-code-bin](https://code.visualstudio.com/) ```yay -S visual-studio-code-bin```
+- [virtualbox](https://www.virtualbox.org/) ```yay -S virtualbox```
+- [openrgb-bin](https://openrgb.org/) ```yay -S openrgb-bin```
+- [corectrl](https://gitlab.com/corectrl/corectrl) ```yay -S corectrl-git```
+- [ddcutil](https://www.ddcutil.com/) ```yay -S ddcutil```
+- [vlc](https://www.videolan.org/vlc/) ```yay -S vlc```
+- [webcord](https://discord.com/) ```yay -S webcord```
+- [signal-desktop](https://signal.org/download/) ```yay -S signal-desktop```
+- [telegram-desktop](https://telegram.org/) ```yay -S telegram-desktop-bin```
+- [steam](https://store.steampowered.com/) ```yay -S steam```
+- [lutris](https://lutris.net/) ```yay -S lutris```
+- [neofetch](https://github.com/dylanaraps/neofetch) ```yay -S neofetch```
+- [proton-bridge](https://proton.me/mail/bridge) ```yay -S protonmail-bridge-bin```
 
 ---
 
