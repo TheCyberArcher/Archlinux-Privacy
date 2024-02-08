@@ -16,7 +16,7 @@
 
 <br />
 
-- Create an usb key with [usbdiskimager](https://bztsrc.gitlab.io/usbimager/) [![Arch-logo.png](https://i.postimg.cc/ZKb86v4X/Arch-logo.png)](https://postimg.cc/G9fTC2Bj)
+- Create an usb key with [usbdiskimager](https://bztsrc.gitlab.io/usbimager/) 
 
 >You can install archlinux manually, I let you refer to the documentation present on the official [archlinux website](https://wiki.archlinux.org/title/Installation_guide) \
 An installer script is also available : [archinstall](https://wiki.archlinux.org/title/Archinstall)
