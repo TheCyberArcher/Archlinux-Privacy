@@ -331,6 +331,10 @@ Reboot the computer to load the new kernel parameter.
 
 <br />
 
+Install ddcutil : 
+
+```yay -S ddcutil```
+
 Edit the configuration file : 
 
 ```sudo nano /etc/modules-load.d/i2c.conf```
