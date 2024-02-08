@@ -134,6 +134,15 @@ After this, activate the environment :
 
 ---
 
+### Radeon driver installation
+
+
+<br />
+
+Install AMD Radeon driver and Vulkan with this command : 
+
+```yay –S mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-tools```
+
 ### Firewall configuration
 
 <br />
