@@ -110,9 +110,20 @@ We update, but with yay now:
 
 We can move on to the next step, retrieving my script and installing everything we need to have a complete system.
 
-### Configure the DNS
+---
+
+### Firewall configuration
 
 <br />
+
+Install firewalld : ```yay -S firewalld```
+
+Enable the service : ```systemctl enable firewalld```
+and start firewalld : ```systemctl start firewalld```
+
+Verify the run : ```firewall-cmd --state```
+
+Set the default zone : ```firewall-cmd --set-default-zone=work```
 
 ### DNS configuration
 
