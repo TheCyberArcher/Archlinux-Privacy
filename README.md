@@ -1,4 +1,4 @@
-# Archlinux-Privacy-Minimal
+# Archlinux-Privacy-Gnome-Light
 
 <br />
 
