@@ -213,6 +213,210 @@ In VPN settings, choose DNS content blocker. Select Ads, Tracker, Malware, Gambl
 
 ---
 
+### Tools installation
+
+<br />
+
+This part depends on your requirements, your needs and your use of the machine.\
+These are the ones I use on a daily basis, but I will try to bring you the most privacy-friendly tools.\
+The tools I list are not exhaustive.
+
+- [LibreWolf](https://librewolf.net/) : ```yay –S librewolf-bin``` 
+- [TorBrowser](https://www.torproject.org/fr/download/) : ```yay –S torbrowser-launcher```
+- [Thunderbird](https://www.thunderbird.net/fr/) : ```yay –S thunderbird```
+- [KeepassXC](https://keepassxc.org/) : ```yay –S keepassxc```
+- [WebAppManager](https://github.com/linuxmint/webapp-manager) : ```yay –S webapp-manager```
+- [Qbittorrent](https://www.qbittorrent.org/download) : ```yay –S qbittorrent```
+- [Btop](https://github.com/aristocratos/btop) : ```yay –S btop```
+- [OnlyOffice](https://www.onlyoffice.com/fr/) : ```yay –S onlyoffice-bin```
+- [CodeOSS](https://flathub.org/apps/com.visualstudio.code-oss) : ```yay –S code```
+- [OpenRGB](https://openrgb.org/) : ```yay –S openrgb-bin```
+- [VLC](https://www.videolan.org/vlc/index.fr.html) : ```yay -S vlc```
+- [Discord](https://discord.com/) : ```yay -S discord```
+- [Signal](https://signal.org/fr/) : ```yay -S signal-desktop```
+
+---
+
+
+### Browser configuration
+
+
+<br />
+
+You can go to this site for more information about the LibreWolf secure browser : https://librewolf.net/docs/faq/
+
+With LibreWolf you already get strong protection against any footprint on the internet. But to solidify the configuration and improve the experience, we will add some extensions:
+
+- [Privacy Badger](https://addons.mozilla.org/fr/firefox/addon/privacy-badger17/) (Blocking against trackers)
+- [Youtube Auto HD](https://addons.mozilla.org/fr/firefox/addon/youtube-auto-hd-fps/) (Sets a default resolution)
+- [Ublock Origin](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/) (Already included, blocks ads)
+
+If you need additional protection, use the [tor-browser](https://www.torproject.org/fr/download/). In addition to accessing the unindexed web, you will have access to onion sites. Browser traffic will be routed through [TOR](https://www.torproject.org/fr/about/history/) in addition to already being encapsulated in your VPN connection.
+
+---
+
+### Virtualisation
+
+<br />
+
+The choice of virtualization tool will depend on what you need. Virtualbox can do the job very well.\
+If you need passtrough GPU or optimal performance, better kernel level and therefore Quemu.
+
+- [Virtualbox](https://www.virtualbox.org/) : ```yay –S virtualbox```
+- [Quemu](https://www.qemu.org/) : ```qemu-desktop```
+
+<br />
+
+Be careful if you want to pass devices (Microphone) into your VM in virtualbox, you must add your user to the vboxusers group and restart.
+
+```usermod –aG «your username» vboxusers```
+
+---
+
+
+### Control your GPU (Radeon Only)
+
+<br />
+
+
+If you use 3D applications or want to play video games, it is necessary to install a few things to improve the experience.
+We will check if the drivers are up to date, then we will install CoreCTRL.
+
+```yay –S mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon```
+
+
+Download : https://archlinux.org/packages/extra/x86_64/corectrl/ \
+Documentation : https://gitlab.com/corectrl/corectrl
+
+
+```yay –S corectrl```
+
+Open corectrl and go to your GPU settings. You can make a manual ventilation curve, also go to the energy profile and select "performance".
+In the tool settings, put corectrl on startup + minimized to tray.
+
+<br />
+
+To avoid having to type the password each time you open the session :
+
+```sudo nano /etc/polkit-1/rules.d/90-corectrl.rules```
+
+Paste the following contents : 
+
+```
+
+ polkit.addRule(function(action, subject) {
+    if ((action.id == "org.corectrl.helper.init" ||
+         action.id == "org.corectrl.helperkiller.init") &&
+        subject.local == true &&
+        subject.active == true &&
+        subject.isInGroup("your-user-group")) {
+            return polkit.Result.YES;
+    }
+});
+
+```
+<br />
+
+To enable overclocking, GPU and memory frequency, add this parameter to your kernel load:
+
+Path : ```/efi/loader/entries/```
+
+Add this at the end of the line "options" : ```amdgpu.ppfeaturemask=0xffffffff```
+
+Reboot the computer to load the new kernel parameter.
+
+---
+
+### ddcutil configuration
+
+<br />
+
+Edit the configuration file : 
+
+```sudo nano /etc/modules-load.d/i2c.conf```
+
+Paste this line : 
+
+```i2c_dev```
+
+Save the configuration and type in a shell ```modprobe i2c_dev```
+
+You can now control the screen brightness.
+
+---
+
+### Alternative Kernel
+
+<br />
+
+[linux-zen](https://github.com/zen-kernel/zen-kernel) : "Result of a collaborative effort of kernel hackers to provide the best Linux kernel possible for everyday systems"
+
+```yay -S linux-zen linux-zen-headers```
+
+```cd efi/loader/```
+
+Edit the loader configuration file :
+
+```sudo nano loader.conf```
+
+To display installed kernels : ```ls /efi/loader/entries```
+
+On the first line, set the "default" to the "linux-zen" kernel : add ```-zen.conf``` after the ```*```
+
+```bootctl set-default @current```
+
+---
+
+### Gaming on Linux
+
+<br />
+
+If you want to play with Linux, know that it is possible. Since 5 years, advances are enormous, especially with Valve which has pushed proton, a very efficient fork of wine.
+
+- [Steam](https://store.steampowered.com/?l=french) : ```yay –S steam```
+
+<br />
+
+>Steam is the reference platform for playing on Linux, try to use it as much as possible to buy your games and make them work on Linux. This is the most plug and play solution.
+
+To use games under Linux, you must activate proton in the steam settings : 
+
+```SteamPlay : Enable Steam Play for supported titles```
+
+<br />
+
+For any game that does not work with proton steam, use this:
+
+- [ProtonGE](https://github.com/GloriousEggroll/proton-ge-custom) : ```yay –S proton-ge-custom ```
+
+<br />
+
+Reboot steam and select this version of Proton on the game parameter.
+Here is the site to check if a game runs well on Linux : [ProtonDB](https://www.protondb.com/)
+
+<br />
+
+Whenever you want to install outside of steam, go through lutris. Install lutris from AUR to benefit from the installation scripts.
+
+- [Lutris](https://lutris.net/) : ```yay –S lutris```
+
+<br />
+
+Install Wine Lutris dependencies : 
+
+```
+sudo pacman -S --needed wine-staging giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls \
+mpg123 lib32-mpg123 openal lib32-openal v4l-utils lib32-v4l-utils libpulse lib32-libpulse libgpg-error \
+lib32-libgpg-error alsa-plugins lib32-alsa-plugins alsa-lib lib32-alsa-lib libjpeg-turbo lib32-libjpeg-turbo \
+sqlite lib32-sqlite libxcomposite lib32-libxcomposite libxinerama lib32-libgcrypt libgcrypt lib32-libxinerama \
+ncurses lib32-ncurses ocl-icd lib32-ocl-icd libxslt lib32-libxslt libva lib32-libva gtk3 \
+lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader lib32-vulkan-icd-loader
+```
+
+Then follow the lutris documentation to install your games simply : [Lutris Game Page](https://lutris.net/games)
+
+---
+
 ### List of packets : 
 
 <br />
