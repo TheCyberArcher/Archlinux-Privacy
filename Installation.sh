@@ -82,8 +82,6 @@ yay –S mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-tools
 
 #Corectrl file configuration
 
-sudo touch /etc/polkit-1/rules.d/90-corectrl.rules
-
 su - -c "cat << EOF > /etc/polkit-1/rules.d/90-corectrl.rules
 
 polkit.addRule(function(action, subject) {
