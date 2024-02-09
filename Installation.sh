@@ -21,12 +21,12 @@ ping aur.archlinux.org -c 5
 
 yay -S firewalld
 
-systemctl enable firewalld
-systemctl start firewalld
+sudo systemctl enable firewalld
+sudo systemctl start firewalld
 
-firewall-cmd --state
+sudo firewall-cmd --state
 
-firewall-cmd --set-default-zone=work
+sudo firewall-cmd --set-default-zone=work
 
 #VPN configuration
 
