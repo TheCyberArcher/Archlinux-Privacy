@@ -8,12 +8,14 @@ sleep 2
 
 sudo pacman -Syu
 
+
 #DNS configuration
 
 nmcli con mod "Connexion filaire 1" ipv4.ignore-auto-dns yes
 nmcli con mod "Connexion filaire 1" ipv4.dns "45.90.28.250 45.90.30.250 9.9.9.9 149.112.112.112 1.1.1.1"
 
 ping aur.archlinux.org -c 5
+
 
 #Firewall configuration
 
@@ -26,12 +28,14 @@ sudo firewall-cmd --state
 
 sudo firewall-cmd --set-default-zone=work
 
+
 #VPN configuration
 
 yay -S mullvad-vpn-bin
 
 mullvad lan set allow
 mullvad dns set default --block-ads --block-trackers --block-malware --block-gambling --block-adult-content
+
 
 #Desktop environment installation
 
@@ -57,13 +61,28 @@ git clone https://github.com/Aryan20/Logomenu.git  ~/.local/share/gnome-shell/ex
 sudo systemctl enable gdm.service
 gsettings set org.gnome.shell disable-user-extensions false
 
-#paccache tool
+
+# paccache tool
 
 yay -S pacman-contrib
 
-#Tools installation
+
+#Drivers installation
+
+sudo pacman –S mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-tools
+
+
+# Enable VRR support 
+
+yay -S  mutter-vrr gnome-control-center-vrr
+
+
+# Softwares installation
 
 yay -S librewolf-bin torbrowser-launcher thunderbird protonmail-bridge-bin solaar keepassxc webapp-manager qbittorrent btop onlyoffice-bin visual-studio-code-bin virtualbox virtualbox-host-modules-arch openrgb-bin corectrl ddcutil vlc corectrl webcord-bin telegram-desktop-bin signal-desktop steam lutris proton-ge-custom-bin neofetch
+
+
+# Wine/Lutris dependancies
 
 sudo pacman -S --needed wine-staging giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls \
 mpg123 lib32-mpg123 openal lib32-openal v4l-utils lib32-v4l-utils libpulse lib32-libpulse libgpg-error \
@@ -72,15 +91,18 @@ sqlite lib32-sqlite libxcomposite lib32-libxcomposite libxinerama lib32-libgcryp
 ncurses lib32-ncurses ocl-icd lib32-ocl-icd libxslt lib32-libxslt libva lib32-libva gtk3 \
 lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader lib32-vulkan-icd-loader winetricks
 
-#Drivers installation
-
-sudo pacman –S mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-tools
 
 #virtualbox user configuration
 
 sudo usermod -a -G vboxusers $USER
 
-#END
+
+# Vscode bug patch
+
+xdg-mime default org.gnome.Nautilus.desktop inode/directory
+
+
+# END
 
 echo "--- Installation terminée"
 echo "--- Reboot dans 10 secondes"
