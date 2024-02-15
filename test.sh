@@ -82,7 +82,7 @@ yay -S  mutter-vrr gnome-control-center-vrr
 yay -S librewolf-bin torbrowser-launcher thunderbird protonmail-bridge-bin solaar keepassxc webapp-manager qbittorrent btop onlyoffice-bin visual-studio-code-bin virtualbox virtualbox-host-modules-arch openrgb-bin corectrl ddcutil vlc corectrl webcord-bin telegram-desktop-bin signal-desktop steam lutris neofetch
 
 
-# Gaming dependancies
+# Gaming dependencies
 
 sudo pacman -S --needed wine-staging giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls \
 mpg123 lib32-mpg123 openal lib32-openal v4l-utils lib32-v4l-utils libpulse lib32-libpulse libgpg-error \
