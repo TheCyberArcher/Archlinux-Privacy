@@ -1,4 +1,4 @@
-echo "------------- Welcome to my Archlinux-Privacy install script -------------------"
+echo "-------------- TheCyberArcher Archlinux install script -------------------"
 
 sleep 2
 
