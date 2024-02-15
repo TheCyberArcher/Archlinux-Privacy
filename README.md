@@ -300,10 +300,6 @@ Be careful if you want to pass devices (Microphone) into your VM in virtualbox, 
 
 
 If you use 3D applications or want to play video games, it is necessary to install a few things to improve the experience.
-We will check if the drivers are up to date, then we will install CoreCTRL.
-
-```yay –S mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon```
-
 
 Download : https://archlinux.org/packages/extra/x86_64/corectrl/ \
 Documentation : https://gitlab.com/corectrl/corectrl
