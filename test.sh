@@ -102,6 +102,12 @@ sudo usermod -a -G vboxusers $USER
 xdg-mime default org.gnome.Nautilus.desktop inode/directory
 
 
+# Cleaning
+
+yay -Rns $(yay -Qtdq)
+rm -rf ~/.cache/*
+
+
 # END
 
 echo "--- Installation terminée"
