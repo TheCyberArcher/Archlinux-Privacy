@@ -79,7 +79,7 @@ yay -S  mutter-vrr gnome-control-center-vrr
 
 # Softwares installation
 
-yay -S librewolf-bin torbrowser-launcher thunderbird protonmail-bridge-bin solaar keepassxc webapp-manager qbittorrent btop onlyoffice-bin visual-studio-code-bin virtualbox virtualbox-host-modules-arch openrgb-bin corectrl ddcutil vlc corectrl webcord-bin telegram-desktop-bin signal-desktop steam lutris neofetch
+yay -S librewolf-bin torbrowser-launcher thunderbird protonmail-bridge-bin solaar keepassxc webapp-manager qbittorrent btop onlyoffice-bin visual-studio-code-bin virtualbox virtualbox-host-dkms openrgb-bin corectrl ddcutil vlc corectrl webcord-bin telegram-desktop-bin signal-desktop steam lutris neofetch
 
 
 # Gaming dependencies
