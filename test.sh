@@ -80,7 +80,7 @@ sudo pacman –S mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-tools
 
 # Native Softwares install
 
-yay -S librewolf-bin firefox torbrowser-launcher thunderbird protonmail-bridge-bin solaar keepassxc webapp-manager qbittorrent btop onlyoffice-bin visual-studio-code-bin virtualbox virtualbox-host-dkms openrgb-bin corectrl ddcutil vlc webcord-bin telegram-desktop-bin signal-desktop steam lutris neofetch flatseal
+yay -S librewolf-bin firefox torbrowser-launcher thunderbird protonmail-bridge-bin solaar keepassxc webapp-manager qbittorrent btop onlyoffice-bin visual-studio-code-bin virtualbox virtualbox-host-dkms openrgb-bin corectrl ddcutil vlc webcord-bin telegram-desktop-bin signal-desktop steam lutris neofetch flatseal alacritty
 
 
 # Flatpak softwares install
