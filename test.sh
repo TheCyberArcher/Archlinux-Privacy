@@ -39,7 +39,7 @@ mullvad dns set default --block-ads --block-trackers --block-malware --block-gam
 
 #Desktop environment installation
 
-yay -S gnome-shell gnome-control-center gnome-tweaks gnome-terminal xdg-user-dirs networkmanager nautilus gnome-keyring xdg-desktop-portal xdg-desktop-portal-gnome gdm gdm-settings eog baobab
+yay -S gnome-shell gnome-control-center gnome-tweaks gnome-terminal xdg-user-dirs networkmanager nautilus gnome-keyring xdg-desktop-portal xdg-desktop-portal-gnome gdm gdm-settings eog baobab gnome-calculator
 
 mkdir ~/.local/share/gnome-shell/extensions/
 
@@ -62,6 +62,10 @@ git clone https://github.com/Aryan20/Logomenu.git  ~/.local/share/gnome-shell/ex
 sudo systemctl enable gdm.service
 gsettings set org.gnome.shell disable-user-extensions false
 
+# Gnome visual customisation
+
+git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git ~/.local/WhiteSur-gtk-theme
+bash ~/.local/WhiteSur-gtk-theme/install.sh
 
 # paccache tool
 
@@ -73,9 +77,19 @@ yay -S pacman-contrib
 sudo pacman –S mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-tools
 
 
-# Softwares installation
+# Native Softwares install
 
-yay -S librewolf-bin firefox torbrowser-launcher thunderbird protonmail-bridge-bin solaar keepassxc webapp-manager qbittorrent btop onlyoffice-bin visual-studio-code-bin virtualbox virtualbox-host-dkms openrgb-bin corectrl ddcutil vlc webcord-bin telegram-desktop-bin signal-desktop steam lutris neofetch
+yay -S librewolf-bin firefox torbrowser-launcher thunderbird protonmail-bridge-bin solaar keepassxc webapp-manager qbittorrent btop onlyoffice-bin visual-studio-code-bin virtualbox virtualbox-host-dkms openrgb-bin corectrl ddcutil vlc webcord-bin telegram-desktop-bin signal-desktop steam lutris neofetch flatseal
+
+
+# Flatpak softwares install
+
+yay -S flatpak
+
+flatpak install flathub com.github.IsmaelMartinez.teams_for_linux
+flatpak install flathub com.sindresorhus.Caprine
+flatpak install flathub io.github.mimbrero.WhatsAppDesktop
+flatpak install flathub com.spotify.Client
 
 
 # Gaming dependencies
