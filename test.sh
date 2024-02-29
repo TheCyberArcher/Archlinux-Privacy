@@ -43,14 +43,15 @@ yay -S gnome-shell gnome-control-center gnome-tweaks gnome-terminal xdg-user-dir
 
 mkdir ~/.local/share/gnome-shell/extensions/
 
-yay -S gnome-shell-extension-appindicator-git 
-yay -S gnome-shell-extension-vitals-git 
-yay -S gnome-shell-extension-display-brightness-ddcutil-git 
-yay -S gnome-shell-extension-quick-settings-tweaks-git 
-yay -S gnome-shell-extension-dash-to-dock 
-yay -S gnome-shell-extension-gsconnect 
-yay -S gnome-shell-extension-blur-my-shell 
+yay -S gnome-shell-extension-appindicator-git
+yay -S gnome-shell-extension-vitals-git
+yay -S gnome-shell-extension-display-brightness-ddcutil-git
+yay -S gnome-shell-extension-quick-settings-tweaks-git
+yay -S gnome-shell-extension-dash-to-dock
+yay -S gnome-shell-extension-gsconnect
+yay -S gnome-shell-extension-blur-my-shell
 yay -S gnome-shell-extension-forge
+yay -S gnome-shell-extension-gtk4-desktop-icons-ng
 
 
 git clone https://github.com/d-go/quick-settings-avatar.git ~/.local/share/gnome-shell/extensions/"quick-settings-avatar@d-go"
@@ -70,11 +71,6 @@ yay -S pacman-contrib
 #Drivers installation
 
 sudo pacman –S mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-tools
-
-
-# Enable VRR support 
-
-yay -S  mutter-vrr gnome-control-center-vrr
 
 
 # Softwares installation
